@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="Nexus 5X" />
+        <device id="pixel_2" />
+        <device id="pixel_3" />
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="asd" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Firebase" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6404fca1-e2f9-4c2d-b5a8-2797e20c3a5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/gigs/maher1957/Activity/VerifyActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gigs/maher1957/Activity/AlamatActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gigs/maher1957/Activity/AlamatActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gigs/maher1957/Activity/DetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gigs/maher1957/Activity/DetailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gigs/maher1957/Activity/DetailOrderActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gigs/maher1957/Activity/DetailOrderActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gigs/maher1957/Activity/HomePageActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gigs/maher1957/Activity/HomePageActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gigs/maher1957/Activity/KategoriDetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gigs/maher1957/Activity/KategoriDetailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gigs/maher1957/Activity/PasswordActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gigs/maher1957/Activity/PasswordActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gigs/maher1957/Activity/PembayaranActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gigs/maher1957/Activity/PembayaranActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gigs/maher1957/Activity/PengirimanActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gigs/maher1957/Activity/PengirimanActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gigs/maher1957/Activity/PesanActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gigs/maher1957/Activity/PesanActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gigs/maher1957/Activity/ProfileActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gigs/maher1957/Activity/ProfileActivity.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="valueResourceFile" />
+        <option value="Interface" />
+        <option value="resourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/app/src/main/java/com/gigs/maher1957/Activity" />
+  </component>
+  <component name="ProjectId" id="1cnSVwMbveQudjaU6X6cZBXvAGu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ChangesTree.GroupingKeys" value="module&#10;directory" />
+    <property name="DEBUGGABLE_DEVICE" value="Pixel_2_API_R [emulator-5554]" />
+    <property name="DEBUGGABLE_PROCESS" value="com.gigs.maheroutfit" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="ba12987c" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-10-04T22:29:29.692Z" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="ToolWindowBuild.ShowToolbar" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.gigs.maher1957.Fragments" />
+      <recent name="com.gigs.maheroutfit.Adapters" />
+      <recent name="com.gigs.maheroutfit.Activity" />
+      <recent name="com.gigs.maheroutfit.Fragment" />
+      <recent name="com.gigs.maheroutfit.adapter" />
+    </key>
+    <key name="android.template.466714026">
+      <recent name="com.gigs.maher1957.Activity" />
+    </key>
+    <key name="android.template.-1302055668">
+      <recent name="com.gigs.maher1957.Activity" />
+    </key>
+    <key name="android.template.907526100">
+      <recent name="com.gigs.maheroutfit.Activity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Maher1957-Kelompok D\app\src\main\res\drawable" />
+      <recent name="C:\Users\kafin\AndroidStudioProjects\Maher1957\app\assets\font" />
+      <recent name="C:\Users\kafin\AndroidStudioProjects\Maher1957\app\src\main\res\font" />
+      <recent name="C:\Users\kafin\AndroidStudioProjects\Maher1957\app\src\main\res\drawable" />
+      <recent name="C:\Users\kafin\AndroidStudioProjects\MaherOutfit\app\src\main\java\com\gigs\maheroutfit\API" />
+    </key>
+    <key name="android.template.560090578">
+      <recent name="com.gigs.maheroutfit.EmailLoginRegister" />
+    </key>
+    <key name="android.template.608018321">
+      <recent name="com.gigs.maheroutfit.Activity" />
+    </key>
+    <key name="android.template.1195287959">
+      <recent name="com.gigs.maheroutfit.Activity" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.gigs.maheroutfit" />
+    </key>
+    <key name="android.template.53871029">
+      <recent name="com.gigs.maheroutfit.Activity" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kafin\AndroidStudioProjects\Maher1957-source code\app\src\main\res\drawable" />
+      <recent name="C:\Users\kafin\AndroidStudioProjects\Maher1957\app\src\main\res\menu" />
+      <recent name="C:\Users\kafin\AndroidStudioProjects\Maher1957\app\src\main" />
+      <recent name="C:\Users\kafin\AndroidStudioProjects\Maher1957\app\src\main\res\layout" />
+      <recent name="C:\Users\kafin\AndroidStudioProjects\Maher1957\app\src\main\res\drawable" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.gigs.maher1957.Models.Sosmed" />
+      <recent name="com.gigs.maher1957.Fragments" />
+      <recent name="com.gigs.maher1957.Helper" />
+      <recent name="dataItem" />
+      <recent name="com.gigs.maheroutfit.Adapters" />
+    </key>
+    <key name="android.template.814177511">
+      <recent name="com.gigs.maheroutfit" />
+      <recent name="com.gigs.maheroutfit.model" />
+    </key>
+    <key name="android.template.-783728059">
+      <recent name="com.gigs.maher1957.Activity" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Maher_Outfit.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\kafin\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6404fca1-e2f9-4c2d-b5a8-2797e20c3a5a" name="Default Changelist" comment="" />
+      <created>1591162891619</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591162891619</updated>
+    </task>
+    <task id="LOCAL-00001" summary="asdasdaasdasdad">
+      <created>1591768634979</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591768634979</updated>
+    </task>
+    <task id="LOCAL-00002" summary="asdasdaasdasdad">
+      <created>1593940578344</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593940578344</updated>
+    </task>
+    <task id="LOCAL-00003" summary="tgl 7 july">
+      <created>1594055416650</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594055416650</updated>
+    </task>
+    <task id="LOCAL-00004" summary="tgl 7 july">
+      <created>1594362316747</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594362316748</updated>
+    </task>
+    <task id="LOCAL-00005" summary="tgl 5 Agustus">
+      <created>1596620169224</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596620169224</updated>
+    </task>
+    <task id="LOCAL-00006" summary="tgl 4 september">
+      <created>1599195848506</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599195848506</updated>
+    </task>
+    <task id="LOCAL-00007" summary="tgl 4 september">
+      <created>1599414008252</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599414008252</updated>
+    </task>
+    <task id="LOCAL-00008" summary="10-10-20, update maher">
+      <created>1602221912035</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602221912035</updated>
+    </task>
+    <task id="LOCAL-00009" summary="10-10-20, update maher">
+      <created>1602222458641</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1602222458641</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/kafin/AndroidStudioProjects/Maher1957/app/src/main/java/com/gigs/maher1957/Models" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../maher" />
+    </ignored-roots>
+    <MESSAGE value="asdasdaasdasdad" />
+    <MESSAGE value="tgl 7 july" />
+    <MESSAGE value="tgl 5 Agustus" />
+    <MESSAGE value="tgl 4 september" />
+    <MESSAGE value="10-10-20, update maher" />
+    <option name="LAST_COMMIT_MESSAGE" value="10-10-20, update maher" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1617423531323">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1617423531323" />
+    <state x="117" y="46" key="SettingsEditor" timestamp="1617420772051">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="117" y="46" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1617420772051" />
+    <state x="499" y="162" key="chooseDestDirectoryDialog" timestamp="1617420955038">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="499" y="162" key="chooseDestDirectoryDialog/0.0.1366.768@0.0.1366.768" timestamp="1617420955038" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="app">
+        <watch expression="((IllegalArgumentException)t).detailMessage" custom="java.lang.IllegalArgumentException" />
+        <watch expression="this" />
+        <watch expression="t" />
+        <watch expression="response" />
+        <watch expression="response" />
+        <watch expression="response" />
+        <watch expression="response" />
+        <watch expression="listProvinsi" language="JAVA" />
+        <watch expression="listProvinsi" language="JAVA" />
+        <watch expression="response" />
+        <watch expression="call" />
+        <watch expression="this" />
+        <watch expression="tinyDB" language="JAVA" />
+        <watch expression="response" />
+        <watch expression="response.body" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
