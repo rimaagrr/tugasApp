@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="transparant">#00000000</color>
+
+    <color name="putih">#FFFFFF</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="hitam">#000000</color>
+    <color name="merah">#FF0000</color>
+    <color name="biru">#0000FF</color>
+    <color name="navy">#000080</color>
+    <color name="hijau">#008000</color>
+    <color name="abu">#808080</color>
+    <color name="kuning">#FFFF00</color>
+    <color name="maroon">#800000</color>
+    <color name="ungu">#800080</color>
+    <color name="indigo">#5C6BC0</color>
+
+    <array name="all_colors">
+<!--        <item>@color/putih</item>-->
+<!--        <item>@color/hitam</item>-->
+<!--        <item>@color/abu</item>-->
+<!--        <item>@color/maroon</item>-->
+<!--        <item>@color/navy</item>-->
+        <item>@color/hijau</item>
+        <item>@color/ungu</item>
+        <item>@color/indigo</item>
+    </array>
+
+</resources>

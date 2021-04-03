@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="3dp"
+    android:layout_margin="10dp"
+    android:orientation="horizontal"
+    android:background="@drawable/card_notif">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:gravity="end"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/notif_tittle"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:padding="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="0dp"
+            android:gravity="center"
+            android:background="@drawable/submit_button"
+            android:text="unpaid"
+            android:textColor="#FFFFFF"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/invID"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:layout_marginEnd="10dp"-->
+<!--            android:text="Pesanan"-->
+<!--            android:textColor="#686260"/>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="0dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/hitam"
+                android:text="Invoice ID"
+                android:textColor="@color/hitam" />
+
+            <TextView
+                android:id="@+id/notif1"
+                android:layout_width="match_parent"
+                android:layout_weight="1.5"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:gravity="start"
+                android:text=""
+                android:textColor="@color/hitam"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="0dp"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/hitam"
+                android:text="Status"
+                android:textColor="@color/hitam" />
+
+            <TextView
+                android:id="@+id/notif2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:layout_marginEnd="10dp"
+                android:gravity="start"
+                android:text=""
+                android:textColor="@color/hitam"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="0dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/hitam"
+                android:text="Grand Total"
+                android:textColor="@color/hitam"/>
+
+            <TextView
+                android:id="@+id/notif3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:layout_marginEnd="10dp"
+                android:gravity="start"
+                android:text=""
+                android:textColor="@color/hitam"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="horizontal">
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="start"-->
+<!--                android:layout_marginEnd="10dp"-->
+<!--                android:text="Note :"-->
+<!--                android:textColor="@color/hitam" />-->
+
+            <TextView
+                android:id="@+id/notif4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/outline_image"
+                android:padding="5dp"
+                android:gravity="start"
+                android:layout_gravity="center"
+                android:text=""
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/silver" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/notif_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:drawableLeft="@drawable/ic_jam"
+            android:drawablePadding="3dp"
+            android:drawableTint="@color/color"
+            android:text="19-06-2020 17.30"
+            android:textColor="@color/color"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

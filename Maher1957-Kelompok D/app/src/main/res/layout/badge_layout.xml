@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@android:style/Widget.ActionButton">
+
+    <ImageView
+        android:id="@+id/aw"
+        android:src="@drawable/ic_favorit_hitam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.nex3z.notificationbadge.NotificationBadge
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/badge"
+        android:layout_toEndOf="@+id/aw"
+        android:layout_alignTop="@+id/aw"
+        android:layout_marginStart="-10dp"
+        android:layout_marginTop="-10dp"
+        app:nbMaxTextLength="2">
+    </com.nex3z.notificationbadge.NotificationBadge>
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_weight="2.5"-->
+<!--        android:layout_marginTop="0dp"-->
+<!--        android:paddingBottom="10dp">-->
+<!--    -->
+<!--        <ImageView-->
+<!--            android:id="@+id/favorit"-->
+<!--            android:layout_width="40dp"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:layout_marginStart="5dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:src="@drawable/ic_favorit" />-->
+<!--    -->
+<!--        <com.nex3z.notificationbadge.NotificationBadge-->
+<!--            android:layout_width="30dp"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:id="@+id/badge"-->
+<!--            android:layout_toEndOf="@+id/favorit"-->
+<!--            android:layout_alignTop="@+id/favorit"-->
+<!--            android:layout_marginStart="-17dp"-->
+<!--            android:layout_marginTop="-10dp"-->
+<!--            app:nbMaxTextLength="2">-->
+<!--        </com.nex3z.notificationbadge.NotificationBadge>-->
+<!--    </RelativeLayout>-->
+</RelativeLayout>

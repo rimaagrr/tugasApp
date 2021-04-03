@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Maher 1957</string>
+    <string name="rekomendasi"><u>The Reborn Collection</u></string>
+    <string name="rekomendasi2">Find your style on our The Reborn Collection</string>
+    <string name="wishlist"><u>Wishlist</u></string>
+    <string name="ktghijab"><u>Hijab</u></string>
+    <string name="ktgkaos"><u>Kaos</u></string>
+    <string name="ktgkemeja"><u>Kemeja</u></string>
+    <string name="ktgsepatu"><u>Sepatu</u></string>
+    <string name="price">PRICE</string>
+    <string name="pilihwarna"><b>Pilih Warna :</b></string>
+    <string name="pilihukuran"><b>Pilih Ukuran :</b></string>
+    <string name="harga"><strike>Rp150.000</strike></string>
+
+    <string name="provinsi">Pilih Provinsi</string>
+    <!--    <string-array name="provinsi">-->
+    <!--        <item>Jawa Barat</item>-->
+    <!--        <item>Jawa Tengah</item>-->
+    <!--        <item>Jawa Timur</item>-->
+    <!--        <item>DKI Jakarta</item>-->
+    <!--        <item>DIYogyakarta</item>-->
+    <!--        <item>Banten</item>-->
+    <!--    </string-array>-->
+
+    <string name="kabkota">Pilih Kabupaten / Kota</string>
+    <string-array name="kabkota">
+        <item>Bandung</item>
+        <item>Bandung Barat</item>
+        <item>Banten</item>
+        <item>Cimahi</item>
+        <item>Depok</item>
+        <item>Jakarta</item>
+        <item>Karawang</item>
+        <item>Sumedang</item>
+    </string-array>
+
+    <string name="kecamatan">Pilih Kecamatan</string>
+    <string-array name="kecamatan">
+        <item>Antapani</item>
+        <item>Arcamanik</item>
+        <item>Cibiru</item>
+        <item>Cicendo</item>
+        <item>Cileunyi</item>
+        <item>Cinunuk</item>
+        <item>Gedebage</item>
+    </string-array>
+
+</resources>

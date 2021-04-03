@@ -1,0 +1,2498 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash">
+
+    <!-- navigasi bar -->
+    <androidx.appcompat.widget.Toolbar
+        android:background="@color/hitam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maher Outfit"
+                android:textColor="@color/putih"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+            <RelativeLayout
+                android:layout_width="20dp"
+                android:layout_height="match_parent"/>
+
+            <Button
+                android:id="@+id/cari"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/putih"
+                android:drawableStart="@drawable/ic_cari"
+                android:gravity="left|center_vertical"
+                android:text="Cari sesuatu"
+                android:textAllCaps="false"
+                android:textColor="#000000" />
+
+            <RelativeLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+            <androidx.cardview.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                app:cardCornerRadius="5dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="40dp"
+                android:backgroundTint="@color/putih"
+                android:layout_height="40dp">
+
+                <Button
+                    android:id="@+id/favorit"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/ic_favorit" />
+            </androidx.cardview.widget.CardView>
+            <RelativeLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- header -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/header" />
+
+            <!-- splash -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="-100dp">
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <!-- Iklan Banner 1 -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <RelativeLayout
+                                android:layout_width="30dp"
+                                android:layout_height="match_parent"/>
+
+                            <LinearLayout
+                                android:id="@+id/banner1_1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/shadow">
+                                <LinearLayout
+                                    android:padding="15dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:orientation="vertical">
+
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        app:cardCornerRadius="10dp">
+
+                                        <ImageView
+                                            android:id="@+id/image_ban1"
+                                            android:layout_width="138dp"
+                                            android:layout_height="match_parent"
+                                            android:adjustViewBounds="true"
+                                            android:cropToPadding="true"
+                                            android:src="@drawable/g1" />
+                                    </androidx.cardview.widget.CardView>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:padding="25dp">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Produk Terlaris!"
+                                        android:textColor="#FF0000"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="127dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:text="Jilbab Ale Ale"
+                                        android:textColor="#000000"
+                                        android:textSize="20dp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="3dp"
+                                        android:text="Rp 120,000"
+                                        android:textColor="#000000"
+                                        android:textSize="12dp"
+                                        android:textStyle="bold" />
+
+                                    <Button
+                                        android:backgroundTint="@color/hitam"
+                                        android:textColor="@color/putih"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:paddingTop="3dp"
+                                        android:text="Ambil Promo"
+                                        android:textAllCaps="false" />
+
+                                </LinearLayout>
+                            </LinearLayout>
+                            <RelativeLayout
+                                android:layout_width="30dp"
+                                android:layout_height="match_parent"/>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/shadow">
+                                <LinearLayout
+                                    android:padding="15dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:orientation="vertical">
+
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        app:cardCornerRadius="10dp">
+
+                                        <ImageView
+                                            android:layout_width="138dp"
+                                            android:layout_height="match_parent"
+                                            android:adjustViewBounds="true"
+                                            android:cropToPadding="true"
+                                            android:src="@drawable/g1" />
+                                    </androidx.cardview.widget.CardView>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:padding="25dp">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Best Reseller!"
+                                        android:textColor="#FF0000"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="127dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:text="Jilbab Ale Ale"
+                                        android:textColor="#000000"
+                                        android:textSize="20dp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="3dp"
+                                        android:text="Rp 120,000"
+                                        android:textColor="#000000"
+                                        android:textSize="12dp"
+                                        android:textStyle="bold" />
+
+                                    <Button
+                                        android:backgroundTint="@color/hitam"
+                                        android:textColor="@color/putih"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:paddingTop="3dp"
+                                        android:text="Ambil Promo"
+                                        android:textAllCaps="false" />
+
+                                </LinearLayout>
+                            </LinearLayout>
+                            <RelativeLayout
+                                android:layout_width="30dp"
+                                android:layout_height="match_parent"/>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/shadow">
+                                <LinearLayout
+                                    android:padding="15dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:orientation="vertical">
+
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        app:cardCornerRadius="10dp">
+
+                                        <ImageView
+                                            android:layout_width="138dp"
+                                            android:layout_height="match_parent"
+                                            android:adjustViewBounds="true"
+                                            android:cropToPadding="true"
+                                            android:src="@drawable/g1" />
+                                    </androidx.cardview.widget.CardView>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:padding="25dp">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Best Reseller!"
+                                        android:textColor="#FF0000"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="127dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:text="Jilbab Ale Ale"
+                                        android:textColor="#000000"
+                                        android:textSize="20dp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="3dp"
+                                        android:text="Rp 120,000"
+                                        android:textColor="#000000"
+                                        android:textSize="12dp"
+                                        android:textStyle="bold" />
+
+                                    <Button
+                                        android:backgroundTint="@color/hitam"
+                                        android:textColor="@color/putih"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:paddingTop="3dp"
+                                        android:text="Ambil Promo"
+                                        android:textAllCaps="false" />
+
+                                </LinearLayout>
+                            </LinearLayout>
+                            <RelativeLayout
+                                android:layout_width="30dp"
+                                android:layout_height="match_parent"/>
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
+            </LinearLayout>
+
+            <!-- JUDUL Category -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Kategori >"
+                    android:textAlignment="textStart"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!-- category-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="15dp">
+
+                <!-- card menu -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/card_category"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:orientation="horizontal"
+                        android:padding="20dp">
+
+                        <ImageView
+                            android:id="@+id/kategori_hijab"
+                            android:tint="@color/putih"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="true"
+                            android:src="@drawable/hijab" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Hijab"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="12dp" />
+                </LinearLayout>
+                <RelativeLayout
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"></RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/card_category"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:orientation="horizontal"
+                        android:padding="20dp">
+
+                        <ImageView
+                            android:id="@+id/kategori_kaos"
+                            android:tint="@color/putih"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="true"
+                            android:src="@drawable/baju" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Kaos"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="12dp" />
+                </LinearLayout>
+                <RelativeLayout
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"></RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/card_category"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:orientation="horizontal"
+                        android:padding="20dp">
+
+                        <ImageView
+                            android:id="@+id/kategori_kemeja"
+                            android:tint="@color/putih"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="true"
+                            android:src="@drawable/kemeja" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Kemeja"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="12dp" />
+                </LinearLayout>
+                <RelativeLayout
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"></RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/card_category"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:orientation="horizontal"
+                        android:padding="20dp">
+
+                        <ImageView
+                            android:id="@+id/kategori_sepatu"
+                            android:tint="@color/putih"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="true"
+                            android:src="@drawable/sepatu" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Sepatu"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Product -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Produk Terlaris >"
+                        android:textAlignment="textStart"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:layout_marginRight="15dp"
+                        android:textColor="#FFFFFF"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/hitam"
+                        android:text="View All"
+                        android:textAllCaps="false" />
+                </LinearLayout>
+
+                <HorizontalScrollView
+                    android:paddingLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <!-- card product 1 -->
+                        <LinearLayout
+                            android:id="@+id/linear"
+                            android:layout_marginBottom="10dp"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shadow"
+                            android:orientation="vertical"
+                            android:padding="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent">
+
+                                    <androidx.cardview.widget.CardView
+
+                                        app:cardCornerRadius="5dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:adjustViewBounds="true"
+                                            android:clickable="true"
+                                            android:cropToPadding="false"
+                                            android:forceDarkAllowed="false"
+                                            android:longClickable="false"
+                                            android:src="@drawable/g2" />
+                                    </androidx.cardview.widget.CardView>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:padding="8dp"
+                                android:layout_marginTop="5dp"
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+
+                                <TextView
+                                    android:textSize="15dp"
+                                    android:textColor="#FF0000"
+                                    android:text="Produk Terlaris!"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+
+                                <TextView
+                                    android:layout_marginTop="3dp"
+                                    android:textSize="12dp"
+                                    android:textColor="#000000"
+                                    android:text="Jilbab Teh Gelas"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:textStyle="bold"
+                                    android:textColor="#000000"
+                                    android:text="Rp 150,000"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <Button
+                                        android:layout_marginTop="5dp"
+                                        android:backgroundTint="@color/hitam"
+                                        android:textColor="@color/putih"
+                                        android:textAllCaps="false"
+                                        android:text="Add to cart"
+                                        android:layout_width="90dp"
+                                        android:layout_height="60dp" />
+                                    <Button
+                                        android:backgroundTint="@color/hitam"
+                                        android:clickable="true"
+                                        android:layout_centerInParent="true"
+                                        android:layout_width="35dp"
+                                        android:layout_height="35dp"
+                                        android:layout_gravity="center_vertical"
+                                        android:background="@drawable/ic_favorit"/>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                        </LinearLayout>
+                        <RelativeLayout
+                            android:layout_width="15dp"
+                            android:layout_height="match_parent">
+                        </RelativeLayout>
+
+                        <!-- card product 2 -->
+                        <LinearLayout
+                            android:layout_marginBottom="10dp"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shadow"
+                            android:orientation="vertical"
+                            android:padding="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent">
+
+                                    <androidx.cardview.widget.CardView
+                                        app:cardCornerRadius="5dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:adjustViewBounds="true"
+                                            android:clickable="true"
+                                            android:cropToPadding="false"
+                                            android:forceDarkAllowed="false"
+                                            android:longClickable="false"
+                                            android:src="@drawable/g3" />
+                                    </androidx.cardview.widget.CardView>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:padding="8dp"
+                                android:layout_marginTop="5dp"
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:textSize="15dp"
+                                    android:textColor="#FF0000"
+                                    android:text="Produk Terlaris!"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:layout_marginTop="3dp"
+                                    android:textSize="12dp"
+                                    android:textColor="#000000"
+                                    android:text="Jilbab Kratingdeng"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:textStyle="bold"
+                                    android:textColor="#000000"
+                                    android:text="Rp 155,000"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <Button
+                                        android:layout_marginTop="5dp"
+                                        android:backgroundTint="@color/hitam"
+                                        android:textColor="@color/putih"
+                                        android:textAllCaps="false"
+                                        android:text="Add to cart"
+                                        android:layout_width="90dp"
+                                        android:layout_height="60dp" />
+                                    <Button
+                                        android:backgroundTint="@color/hitam"
+                                        android:clickable="true"
+                                        android:layout_centerInParent="true"
+                                        android:layout_width="35dp"
+                                        android:layout_height="35dp"
+                                        android:layout_gravity="center_vertical"
+                                        android:background="@drawable/ic_favorit"/>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <RelativeLayout
+                            android:layout_width="15dp"
+                            android:layout_height="match_parent">
+                        </RelativeLayout>
+
+                        <!-- card product 3 -->
+                        <LinearLayout
+                            android:layout_marginBottom="10dp"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shadow"
+                            android:orientation="vertical"
+                            android:padding="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent">
+
+                                    <androidx.cardview.widget.CardView
+                                        app:cardCornerRadius="5dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:adjustViewBounds="true"
+                                            android:clickable="true"
+                                            android:cropToPadding="false"
+                                            android:forceDarkAllowed="false"
+                                            android:longClickable="false"
+                                            android:src="@drawable/g4" />
+                                    </androidx.cardview.widget.CardView>
+                                </LinearLayout>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:padding="8dp"
+                                android:layout_marginTop="5dp"
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:textSize="15dp"
+                                    android:textColor="#FF0000"
+                                    android:text="Produk Terlaris!"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:layout_marginTop="3dp"
+                                    android:textSize="12dp"
+                                    android:textColor="#000000"
+                                    android:text="Kaos Denim"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:textStyle="bold"
+                                    android:textColor="#000000"
+                                    android:text="Rp 350,000"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <Button
+                                        android:layout_marginTop="5dp"
+                                        android:backgroundTint="@color/hitam"
+                                        android:textColor="@color/putih"
+                                        android:textAllCaps="false"
+                                        android:text="Add to cart"
+                                        android:layout_width="90dp"
+                                        android:layout_height="60dp" />
+                                    <Button
+                                        android:backgroundTint="@color/hitam"
+                                        android:clickable="true"
+                                        android:layout_centerInParent="true"
+                                        android:layout_width="35dp"
+                                        android:layout_height="35dp"
+                                        android:layout_gravity="center_vertical"
+                                        android:background="@drawable/ic_favorit"/>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <RelativeLayout
+                            android:layout_width="15dp"
+                            android:layout_height="match_parent">
+                        </RelativeLayout>
+
+                        <!-- card product 4 -->
+                        <LinearLayout
+                            android:layout_marginBottom="10dp"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shadow"
+                            android:orientation="vertical"
+                            android:padding="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent">
+
+                                    <androidx.cardview.widget.CardView
+                                    app:cardCornerRadius="5dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:adjustViewBounds="true"
+                                        android:clickable="true"
+                                        android:cropToPadding="false"
+                                        android:forceDarkAllowed="false"
+                                        android:longClickable="false"
+                                        android:src="@drawable/g5" />
+                                </androidx.cardview.widget.CardView>
+                                </LinearLayout>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:padding="8dp"
+                                android:layout_marginTop="5dp"
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:textSize="15dp"
+                                    android:textColor="#FF0000"
+                                    android:text="Produk Terlaris!"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:layout_marginTop="3dp"
+                                    android:textSize="12dp"
+                                    android:textColor="#000000"
+                                    android:text="Baju Minion"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:textStyle="bold"
+                                    android:textColor="#000000"
+                                    android:text="Rp 250,000"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <Button
+                                        android:layout_marginTop="5dp"
+                                        android:backgroundTint="@color/hitam"
+                                        android:textColor="@color/putih"
+                                        android:textAllCaps="false"
+                                        android:text="Add to cart"
+                                        android:layout_width="90dp"
+                                        android:layout_height="60dp" />
+                                    <Button
+                                        android:backgroundTint="@color/hitam"
+                                        android:clickable="true"
+                                        android:layout_centerInParent="true"
+                                        android:layout_width="35dp"
+                                        android:layout_height="35dp"
+                                        android:layout_gravity="center_vertical"
+                                        android:background="@drawable/ic_favorit"/>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <RelativeLayout
+                            android:layout_width="15dp"
+                            android:layout_height="match_parent">
+                        </RelativeLayout>
+
+                        <!-- card product 5 -->
+                        <LinearLayout
+                            android:layout_marginBottom="10dp"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shadow"
+                            android:orientation="vertical"
+                            android:padding="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent">
+
+                                    <androidx.cardview.widget.CardView
+                                    app:cardCornerRadius="5dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:adjustViewBounds="true"
+                                        android:clickable="true"
+                                        android:cropToPadding="false"
+                                        android:forceDarkAllowed="false"
+                                        android:longClickable="false"
+                                        android:src="@drawable/g6" />
+                                </androidx.cardview.widget.CardView>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:padding="8dp"
+                                android:layout_marginTop="5dp"
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:textSize="15dp"
+                                    android:textColor="#FF0000"
+                                    android:text="Produk Terlaris!"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:layout_marginTop="3dp"
+                                    android:textSize="12dp"
+                                    android:textColor="#000000"
+                                    android:text="Sepatu Cepat"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:textStyle="bold"
+                                    android:textColor="#000000"
+                                    android:text="Rp 450,000"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <Button
+                                        android:layout_marginTop="5dp"
+                                        android:backgroundTint="@color/hitam"
+                                        android:textColor="@color/putih"
+                                        android:textAllCaps="false"
+                                        android:text="Add to cart"
+                                        android:layout_width="90dp"
+                                        android:layout_height="60dp" />
+                                    <Button
+                                        android:backgroundTint="@color/hitam"
+                                        android:clickable="true"
+                                        android:layout_centerInParent="true"
+                                        android:layout_width="35dp"
+                                        android:layout_height="35dp"
+                                        android:layout_gravity="center_vertical"
+                                        android:background="@drawable/ic_favorit"/>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <RelativeLayout
+                            android:layout_width="15dp"
+                            android:layout_height="match_parent">
+                        </RelativeLayout>
+
+                        <!-- card product 6 -->
+                        <LinearLayout
+                            android:layout_marginBottom="10dp"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shadow"
+                            android:orientation="vertical"
+                            android:padding="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent">
+
+                                    <androidx.cardview.widget.CardView
+                                    app:cardCornerRadius="5dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:adjustViewBounds="true"
+                                        android:clickable="true"
+                                        android:cropToPadding="false"
+                                        android:forceDarkAllowed="false"
+                                        android:longClickable="false"
+                                        android:src="@drawable/g7" />
+                                </androidx.cardview.widget.CardView>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:padding="8dp"
+                                android:layout_marginTop="5dp"
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:textSize="15dp"
+                                    android:textColor="#FF0000"
+                                    android:text="Produk Terlaris!"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:layout_marginTop="3dp"
+                                    android:textSize="12dp"
+                                    android:textColor="#000000"
+                                    android:text="Sepatu Jago"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:textStyle="bold"
+                                    android:textColor="#000000"
+                                    android:text="Rp 550,000"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <Button
+                                        android:layout_marginTop="5dp"
+                                        android:backgroundTint="@color/hitam"
+                                        android:textColor="@color/putih"
+                                        android:textAllCaps="false"
+                                        android:text="Add to cart"
+                                        android:layout_width="90dp"
+                                        android:layout_height="60dp" />
+                                    <Button
+                                        android:backgroundTint="@color/hitam"
+                                        android:clickable="true"
+                                        android:layout_centerInParent="true"
+                                        android:layout_width="35dp"
+                                        android:layout_height="35dp"
+                                        android:layout_gravity="center_vertical"
+                                        android:background="@drawable/ic_favorit"/>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <RelativeLayout
+                            android:layout_width="15dp"
+                            android:layout_height="match_parent">
+                        </RelativeLayout>
+
+                        <!-- card product 7 -->
+                        <LinearLayout
+                            android:layout_marginBottom="10dp"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shadow"
+                            android:orientation="vertical"
+                            android:padding="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent">
+
+                                    <androidx.cardview.widget.CardView
+                                    app:cardCornerRadius="5dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:adjustViewBounds="true"
+                                        android:clickable="true"
+                                        android:cropToPadding="false"
+                                        android:forceDarkAllowed="false"
+                                        android:longClickable="false"
+                                        android:src="@drawable/g8" />
+                                </androidx.cardview.widget.CardView>
+                                </LinearLayout>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:padding="8dp"
+                                android:layout_marginTop="5dp"
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:textSize="15dp"
+                                    android:textColor="#FF0000"
+                                    android:text="Produk Terlaris!"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:layout_marginTop="3dp"
+                                    android:textSize="12dp"
+                                    android:textColor="#000000"
+                                    android:text="Kemeja Super"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:textStyle="bold"
+                                    android:textColor="#000000"
+                                    android:text="Rp 170,000"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <Button
+                                        android:layout_marginTop="5dp"
+                                        android:backgroundTint="@color/hitam"
+                                        android:textColor="@color/putih"
+                                        android:textAllCaps="false"
+                                        android:text="Add to cart"
+                                        android:layout_width="90dp"
+                                        android:layout_height="60dp" />
+                                    <Button
+                                        android:backgroundTint="@color/hitam"
+                                        android:clickable="true"
+                                        android:layout_centerInParent="true"
+                                        android:layout_width="35dp"
+                                        android:layout_height="35dp"
+                                        android:layout_gravity="center_vertical"
+                                        android:background="@drawable/ic_favorit"/>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <RelativeLayout
+                            android:layout_width="15dp"
+                            android:layout_height="match_parent">
+                        </RelativeLayout>
+
+                        <!-- card product 8 -->
+                        <LinearLayout
+                            android:layout_marginBottom="10dp"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shadow"
+                            android:orientation="vertical"
+                            android:padding="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent">
+
+                                    <androidx.cardview.widget.CardView
+                                    app:cardCornerRadius="5dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:adjustViewBounds="true"
+                                        android:clickable="true"
+                                        android:cropToPadding="false"
+                                        android:forceDarkAllowed="false"
+                                        android:longClickable="false"
+                                        android:src="@drawable/g9" />
+                                </androidx.cardview.widget.CardView>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:padding="8dp"
+                                android:layout_marginTop="5dp"
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:textSize="15dp"
+                                    android:textColor="#FF0000"
+                                    android:text="Produk Terlaris!"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:layout_marginTop="3dp"
+                                    android:textSize="12dp"
+                                    android:textColor="#000000"
+                                    android:text="Kemeja Insight"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:textStyle="bold"
+                                    android:textColor="#000000"
+                                    android:text="Rp 180,000"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <Button
+                                        android:layout_marginTop="5dp"
+                                        android:backgroundTint="@color/hitam"
+                                        android:textColor="@color/putih"
+                                        android:textAllCaps="false"
+                                        android:text="Add to cart"
+                                        android:layout_width="90dp"
+                                        android:layout_height="60dp" />
+                                    <Button
+                                        android:backgroundTint="@color/hitam"
+                                        android:clickable="true"
+                                        android:layout_centerInParent="true"
+                                        android:layout_width="35dp"
+                                        android:layout_height="35dp"
+                                        android:layout_gravity="center_vertical"
+                                        android:background="@drawable/ic_favorit"/>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <RelativeLayout
+                            android:layout_width="15dp"
+                            android:layout_height="match_parent">
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+
+            <!-- Banner Iklan 2 -->
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:orientation="horizontal">
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="412dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/promo1">
+                        </LinearLayout>
+                        <RelativeLayout
+                            android:layout_width="10dp"
+                            android:layout_height="match_parent"/>
+                        <LinearLayout
+                            android:layout_width="412dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/promo2">
+                        </LinearLayout>
+                        <RelativeLayout
+                            android:layout_width="10dp"
+                            android:layout_height="match_parent"/>
+                        <LinearLayout
+                            android:layout_width="412dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/promo3">
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+            </LinearLayout>
+
+            <!-- Product Terbaru -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Produk Terbaru >"
+                        android:textAlignment="textStart"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:layout_marginRight="15dp"
+                        android:textColor="#FFFFFF"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/hitam"
+                        android:text="View All"
+                        android:textAllCaps="false" />
+                </LinearLayout>
+
+                <HorizontalScrollView
+                    android:paddingLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <!-- card product 1 -->
+                        <LinearLayout
+                            android:layout_marginBottom="10dp"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shadow"
+                            android:orientation="vertical"
+                            android:padding="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent">
+
+                                    <androidx.cardview.widget.CardView
+                                        app:cardCornerRadius="5dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:adjustViewBounds="true"
+                                            android:clickable="true"
+                                            android:cropToPadding="false"
+                                            android:forceDarkAllowed="false"
+                                            android:longClickable="false"
+                                            android:src="@drawable/g2" />
+                                    </androidx.cardview.widget.CardView>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:padding="8dp"
+                                android:layout_marginTop="5dp"
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_marginTop="3dp"
+                                    android:textSize="12dp"
+                                    android:textColor="#000000"
+                                    android:text="Jilbab Teh Gelas"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:textStyle="bold"
+                                    android:textColor="#000000"
+                                    android:text="Rp 150,000"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <Button
+                                        android:layout_marginTop="5dp"
+                                        android:backgroundTint="@color/hitam"
+                                        android:textColor="@color/putih"
+                                        android:textAllCaps="false"
+                                        android:text="Add to cart"
+                                        android:layout_width="90dp"
+                                        android:layout_height="60dp" />
+                                    <Button
+                                        android:backgroundTint="@color/hitam"
+                                        android:clickable="true"
+                                        android:layout_centerInParent="true"
+                                        android:layout_width="35dp"
+                                        android:layout_height="35dp"
+                                        android:layout_gravity="center_vertical"
+                                        android:background="@drawable/ic_favorit"/>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                        </LinearLayout>
+                        <RelativeLayout
+                            android:layout_width="15dp"
+                            android:layout_height="match_parent">
+                        </RelativeLayout>
+
+                        <!-- card product 2 -->
+                        <LinearLayout
+                            android:layout_marginBottom="10dp"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shadow"
+                            android:orientation="vertical"
+                            android:padding="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent">
+
+                                    <androidx.cardview.widget.CardView
+                                        app:cardCornerRadius="5dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:adjustViewBounds="true"
+                                            android:clickable="true"
+                                            android:cropToPadding="false"
+                                            android:forceDarkAllowed="false"
+                                            android:longClickable="false"
+                                            android:src="@drawable/g3" />
+                                    </androidx.cardview.widget.CardView>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:padding="8dp"
+                                android:layout_marginTop="5dp"
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:layout_marginTop="3dp"
+                                    android:textSize="12dp"
+                                    android:textColor="#000000"
+                                    android:text="Jilbab Kratingdeng"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:textStyle="bold"
+                                    android:textColor="#000000"
+                                    android:text="Rp 155,000"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <Button
+                                        android:layout_marginTop="5dp"
+                                        android:backgroundTint="@color/hitam"
+                                        android:textColor="@color/putih"
+                                        android:textAllCaps="false"
+                                        android:text="Add to cart"
+                                        android:layout_width="90dp"
+                                        android:layout_height="60dp" />
+                                    <Button
+                                        android:backgroundTint="@color/hitam"
+                                        android:clickable="true"
+                                        android:layout_centerInParent="true"
+                                        android:layout_width="35dp"
+                                        android:layout_height="35dp"
+                                        android:layout_gravity="center_vertical"
+                                        android:background="@drawable/ic_favorit"/>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <RelativeLayout
+                            android:layout_width="15dp"
+                            android:layout_height="match_parent">
+                        </RelativeLayout>
+
+                        <!-- card product 3 -->
+                        <LinearLayout
+                            android:layout_marginBottom="10dp"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shadow"
+                            android:orientation="vertical"
+                            android:padding="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent">
+
+                                    <androidx.cardview.widget.CardView
+                                        app:cardCornerRadius="5dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:adjustViewBounds="true"
+                                            android:clickable="true"
+                                            android:cropToPadding="false"
+                                            android:forceDarkAllowed="false"
+                                            android:longClickable="false"
+                                            android:src="@drawable/g4" />
+                                    </androidx.cardview.widget.CardView>
+                                </LinearLayout>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:padding="8dp"
+                                android:layout_marginTop="5dp"
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:layout_marginTop="3dp"
+                                    android:textSize="12dp"
+                                    android:textColor="#000000"
+                                    android:text="Kaos Denim"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:textStyle="bold"
+                                    android:textColor="#000000"
+                                    android:text="Rp 350,000"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <Button
+                                        android:layout_marginTop="5dp"
+                                        android:backgroundTint="@color/hitam"
+                                        android:textColor="@color/putih"
+                                        android:textAllCaps="false"
+                                        android:text="Add to cart"
+                                        android:layout_width="90dp"
+                                        android:layout_height="60dp" />
+                                    <Button
+                                        android:backgroundTint="@color/hitam"
+                                        android:clickable="true"
+                                        android:layout_centerInParent="true"
+                                        android:layout_width="35dp"
+                                        android:layout_height="35dp"
+                                        android:layout_gravity="center_vertical"
+                                        android:background="@drawable/ic_favorit"/>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <RelativeLayout
+                            android:layout_width="15dp"
+                            android:layout_height="match_parent">
+                        </RelativeLayout>
+
+                        <!-- card product 4 -->
+                        <LinearLayout
+                            android:layout_marginBottom="10dp"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shadow"
+                            android:orientation="vertical"
+                            android:padding="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent">
+
+                                    <androidx.cardview.widget.CardView
+                                        app:cardCornerRadius="5dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:adjustViewBounds="true"
+                                            android:clickable="true"
+                                            android:cropToPadding="false"
+                                            android:forceDarkAllowed="false"
+                                            android:longClickable="false"
+                                            android:src="@drawable/g5" />
+                                    </androidx.cardview.widget.CardView>
+                                </LinearLayout>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:padding="8dp"
+                                android:layout_marginTop="5dp"
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_marginTop="3dp"
+                                    android:textSize="12dp"
+                                    android:textColor="#000000"
+                                    android:text="Baju Minion"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:textStyle="bold"
+                                    android:textColor="#000000"
+                                    android:text="Rp 250,000"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <Button
+                                        android:layout_marginTop="5dp"
+                                        android:backgroundTint="@color/hitam"
+                                        android:textColor="@color/putih"
+                                        android:textAllCaps="false"
+                                        android:text="Add to cart"
+                                        android:layout_width="90dp"
+                                        android:layout_height="60dp" />
+                                    <Button
+                                        android:backgroundTint="@color/hitam"
+                                        android:clickable="true"
+                                        android:layout_centerInParent="true"
+                                        android:layout_width="35dp"
+                                        android:layout_height="35dp"
+                                        android:layout_gravity="center_vertical"
+                                        android:background="@drawable/ic_favorit"/>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <RelativeLayout
+                            android:layout_width="15dp"
+                            android:layout_height="match_parent">
+                        </RelativeLayout>
+
+                        <!-- card product 5 -->
+                        <LinearLayout
+                            android:layout_marginBottom="10dp"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shadow"
+                            android:orientation="vertical"
+                            android:padding="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent">
+
+                                    <androidx.cardview.widget.CardView
+                                        app:cardCornerRadius="5dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:adjustViewBounds="true"
+                                            android:clickable="true"
+                                            android:cropToPadding="false"
+                                            android:forceDarkAllowed="false"
+                                            android:longClickable="false"
+                                            android:src="@drawable/g6" />
+                                    </androidx.cardview.widget.CardView>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:padding="8dp"
+                                android:layout_marginTop="5dp"
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_marginTop="3dp"
+                                    android:textSize="12dp"
+                                    android:textColor="#000000"
+                                    android:text="Sepatu Cepat"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:textStyle="bold"
+                                    android:textColor="#000000"
+                                    android:text="Rp 450,000"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <Button
+                                        android:layout_marginTop="5dp"
+                                        android:backgroundTint="@color/hitam"
+                                        android:textColor="@color/putih"
+                                        android:textAllCaps="false"
+                                        android:text="Add to cart"
+                                        android:layout_width="90dp"
+                                        android:layout_height="60dp" />
+                                    <Button
+                                        android:backgroundTint="@color/hitam"
+                                        android:clickable="true"
+                                        android:layout_centerInParent="true"
+                                        android:layout_width="35dp"
+                                        android:layout_height="35dp"
+                                        android:layout_gravity="center_vertical"
+                                        android:background="@drawable/ic_favorit"/>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <RelativeLayout
+                            android:layout_width="15dp"
+                            android:layout_height="match_parent">
+                        </RelativeLayout>
+
+                        <!-- card product 6 -->
+                        <LinearLayout
+                            android:layout_marginBottom="10dp"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shadow"
+                            android:orientation="vertical"
+                            android:padding="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent">
+
+                                    <androidx.cardview.widget.CardView
+                                        app:cardCornerRadius="5dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:adjustViewBounds="true"
+                                            android:clickable="true"
+                                            android:cropToPadding="false"
+                                            android:forceDarkAllowed="false"
+                                            android:longClickable="false"
+                                            android:src="@drawable/g7" />
+                                    </androidx.cardview.widget.CardView>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:padding="8dp"
+                                android:layout_marginTop="5dp"
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_marginTop="3dp"
+                                    android:textSize="12dp"
+                                    android:textColor="#000000"
+                                    android:text="Sepatu Jago"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:textStyle="bold"
+                                    android:textColor="#000000"
+                                    android:text="Rp 550,000"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <Button
+                                        android:layout_marginTop="5dp"
+                                        android:backgroundTint="@color/hitam"
+                                        android:textColor="@color/putih"
+                                        android:textAllCaps="false"
+                                        android:text="Add to cart"
+                                        android:layout_width="90dp"
+                                        android:layout_height="60dp" />
+                                    <Button
+                                        android:backgroundTint="@color/hitam"
+                                        android:clickable="true"
+                                        android:layout_centerInParent="true"
+                                        android:layout_width="35dp"
+                                        android:layout_height="35dp"
+                                        android:layout_gravity="center_vertical"
+                                        android:background="@drawable/ic_favorit"/>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <RelativeLayout
+                            android:layout_width="15dp"
+                            android:layout_height="match_parent">
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+
+        <!-- Rekomendasi Produk -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/rekomendasi"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!-- Baris 1-->
+            <LinearLayout
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <!-- Produk A1 -->
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:id="@+id/item_product"
+                            android:layout_marginBottom="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shadow"
+                            android:orientation="vertical"
+                            android:padding="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent">
+
+                                    <androidx.cardview.widget.CardView
+                                        app:cardCornerRadius="5dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <ImageView
+                                            android:id="@+id/image_a1"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:adjustViewBounds="true"
+                                            android:clickable="true"
+                                            android:cropToPadding="false"
+                                            android:forceDarkAllowed="false"
+                                            android:longClickable="false"
+                                            android:src="@drawable/g2" />
+                                    </androidx.cardview.widget.CardView>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:padding="8dp"
+                                android:layout_marginTop="5dp"
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:id="@+id/name_a1"
+                                    android:layout_marginTop="3dp"
+                                    android:textSize="12dp"
+                                    android:textColor="#000000"
+                                    android:text="Jilbab Teh Gelas"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:id="@+id/price_a1"
+                                    android:textStyle="bold"
+                                    android:textColor="#000000"
+                                    android:text="Rp 150,000"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:id="@+id/disc_a1"
+                                    android:textStyle="bold"
+                                    android:textColor="#000000"
+                                    android:text=""
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <Button
+                                        android:layout_marginTop="5dp"
+                                        android:backgroundTint="@color/hitam"
+                                        android:textColor="@color/putih"
+                                        android:textAllCaps="false"
+                                        android:text="Add to cart"
+                                        android:layout_width="110dp"
+                                        android:layout_height="60dp" />
+                                    <RelativeLayout
+                                        android:layout_width="10dp"
+                                        android:layout_height="wrap_content"/>
+                                    <Button
+                                        android:backgroundTint="@color/hitam"
+                                        android:clickable="true"
+                                        android:layout_centerInParent="true"
+                                        android:layout_width="35dp"
+                                        android:layout_height="35dp"
+                                        android:layout_gravity="center_vertical"
+                                        android:background="@drawable/ic_favorit"/>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"/>
+
+                    <!-- Produk A2 -->
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_marginBottom="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shadow"
+                            android:orientation="vertical"
+                            android:padding="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent">
+
+                                    <androidx.cardview.widget.CardView
+                                        app:cardCornerRadius="5dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <ImageView
+                                            android:id="@+id/image_a2"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:adjustViewBounds="true"
+                                            android:clickable="true"
+                                            android:cropToPadding="false"
+                                            android:forceDarkAllowed="false"
+                                            android:longClickable="false"
+                                            android:src="@drawable/g2" />
+                                    </androidx.cardview.widget.CardView>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:padding="8dp"
+                                android:layout_marginTop="5dp"
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_marginTop="3dp"
+                                    android:textSize="12dp"
+                                    android:textColor="#000000"
+                                    android:text="Jilbab Teh Gelas"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:textStyle="bold"
+                                    android:textColor="#000000"
+                                    android:text="Rp 150,000"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <Button
+                                        android:layout_marginTop="5dp"
+                                        android:backgroundTint="@color/hitam"
+                                        android:textColor="@color/putih"
+                                        android:textAllCaps="false"
+                                        android:text="Add to cart"
+                                        android:layout_width="110dp"
+                                        android:layout_height="60dp" />
+                                    <RelativeLayout
+                                        android:layout_width="10dp"
+                                        android:layout_height="wrap_content"/>
+                                    <Button
+                                        android:backgroundTint="@color/hitam"
+                                        android:clickable="true"
+                                        android:layout_centerInParent="true"
+                                        android:layout_width="35dp"
+                                        android:layout_height="35dp"
+                                        android:layout_gravity="center_vertical"
+                                        android:background="@drawable/ic_favorit"/>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            <!-- Baris 2 -->
+            <LinearLayout
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- Produk B1 -->
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shadow"
+                        android:orientation="vertical"
+                        android:padding="6dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent">
+
+                                <androidx.cardview.widget.CardView
+                                    app:cardCornerRadius="5dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:id="@+id/image_b1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:adjustViewBounds="true"
+                                        android:clickable="true"
+                                        android:cropToPadding="false"
+                                        android:forceDarkAllowed="false"
+                                        android:longClickable="false"
+                                        android:src="@drawable/g2" />
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:padding="8dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_marginTop="3dp"
+                                android:textSize="12dp"
+                                android:textColor="#000000"
+                                android:text="Jilbab Teh Gelas"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+                            <TextView
+                                android:textStyle="bold"
+                                android:textColor="#000000"
+                                android:text="Rp 150,000"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <Button
+                                    android:layout_marginTop="5dp"
+                                    android:backgroundTint="@color/hitam"
+                                    android:textColor="@color/putih"
+                                    android:textAllCaps="false"
+                                    android:text="Add to cart"
+                                    android:layout_width="110dp"
+                                    android:layout_height="60dp" />
+                                <RelativeLayout
+                                    android:layout_width="10dp"
+                                    android:layout_height="wrap_content"/>
+                                <Button
+                                    android:backgroundTint="@color/hitam"
+                                    android:clickable="true"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="35dp"
+                                    android:layout_height="35dp"
+                                    android:layout_gravity="center_vertical"
+                                    android:background="@drawable/ic_favorit"/>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"/>
+
+                <!-- Produk B2 -->
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:id="@+id/rp_b2"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shadow"
+                        android:orientation="vertical"
+                        android:padding="6dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent">
+
+                                <androidx.cardview.widget.CardView
+                                    app:cardCornerRadius="5dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:adjustViewBounds="true"
+                                        android:clickable="true"
+                                        android:cropToPadding="false"
+                                        android:forceDarkAllowed="false"
+                                        android:longClickable="false"
+                                        android:src="@drawable/g2" />
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:padding="8dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_marginTop="3dp"
+                                android:textSize="12dp"
+                                android:textColor="#000000"
+                                android:text="Jilbab Teh Gelas"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+                            <TextView
+                                android:textStyle="bold"
+                                android:textColor="#000000"
+                                android:text="Rp 150,000"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <Button
+                                    android:layout_marginTop="5dp"
+                                    android:backgroundTint="@color/hitam"
+                                    android:textColor="@color/putih"
+                                    android:textAllCaps="false"
+                                    android:text="Add to cart"
+                                    android:layout_width="110dp"
+                                    android:layout_height="60dp" />
+                                <RelativeLayout
+                                    android:layout_width="10dp"
+                                    android:layout_height="wrap_content"/>
+                                <Button
+                                    android:backgroundTint="@color/hitam"
+                                    android:clickable="true"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="35dp"
+                                    android:layout_height="35dp"
+                                    android:layout_gravity="center_vertical"
+                                    android:background="@drawable/ic_favorit"/>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Baris 3 -->
+            <LinearLayout
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- Produk C1 -->
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shadow"
+                        android:orientation="vertical"
+                        android:padding="6dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent">
+
+                                <androidx.cardview.widget.CardView
+                                    app:cardCornerRadius="5dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:adjustViewBounds="true"
+                                        android:clickable="true"
+                                        android:cropToPadding="false"
+                                        android:forceDarkAllowed="false"
+                                        android:longClickable="false"
+                                        android:src="@drawable/g2" />
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:padding="8dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_marginTop="3dp"
+                                android:textSize="12dp"
+                                android:textColor="#000000"
+                                android:text="Jilbab Teh Gelas"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+                            <TextView
+                                android:textStyle="bold"
+                                android:textColor="#000000"
+                                android:text="Rp 150,000"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <Button
+                                    android:layout_marginTop="5dp"
+                                    android:backgroundTint="@color/hitam"
+                                    android:textColor="@color/putih"
+                                    android:textAllCaps="false"
+                                    android:text="Add to cart"
+                                    android:layout_width="110dp"
+                                    android:layout_height="60dp" />
+                                <RelativeLayout
+                                    android:layout_width="10dp"
+                                    android:layout_height="wrap_content"/>
+                                <Button
+                                    android:backgroundTint="@color/hitam"
+                                    android:clickable="true"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="35dp"
+                                    android:layout_height="35dp"
+                                    android:layout_gravity="center_vertical"
+                                    android:background="@drawable/ic_favorit"/>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"/>
+
+                <!-- Produk C2 -->
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shadow"
+                        android:orientation="vertical"
+                        android:padding="6dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent">
+
+                                <androidx.cardview.widget.CardView
+                                    app:cardCornerRadius="5dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:adjustViewBounds="true"
+                                        android:clickable="true"
+                                        android:cropToPadding="false"
+                                        android:forceDarkAllowed="false"
+                                        android:longClickable="false"
+                                        android:src="@drawable/g2" />
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:padding="8dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_marginTop="3dp"
+                                android:textSize="12dp"
+                                android:textColor="#000000"
+                                android:text="Jilbab Teh Gelas"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+                            <TextView
+                                android:textStyle="bold"
+                                android:textColor="#000000"
+                                android:text="Rp 150,000"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <Button
+                                    android:layout_marginTop="5dp"
+                                    android:backgroundTint="@color/hitam"
+                                    android:textColor="@color/putih"
+                                    android:textAllCaps="false"
+                                    android:text="Add to cart"
+                                    android:layout_width="110dp"
+                                    android:layout_height="60dp" />
+                                <RelativeLayout
+                                    android:layout_width="10dp"
+                                    android:layout_height="wrap_content"/>
+                                <Button
+                                    android:backgroundTint="@color/hitam"
+                                    android:clickable="true"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="35dp"
+                                    android:layout_height="35dp"
+                                    android:layout_gravity="center_vertical"
+                                    android:background="@drawable/ic_favorit"/>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/putih"
+        app:itemIconTint="#000000"
+        app:itemTextColor="#000000"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/item_bottom_navigasi" />
+</LinearLayout>
